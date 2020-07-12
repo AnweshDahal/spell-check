@@ -1,0 +1,2 @@
+@font-face{font-family:"Roboto Regular";src:url("./fonts/Roboto/Roboto-Regular.ttf")}@font-face{font-family:"Roboto Black";src:url("./fonts/Roboto/Roboto-Black.ttf")}@font-face{font-family:"Roboto Light";src:url("./fonts/Roboto/Roboto-Light.ttf")}@font-face{font-family:"Roboto Bold";src:url("./fonts/Roboto/Roboto-Bold.ttf")}.header{background-color:#292929;padding:10px}.header .logo{font-size:2rem;font-family:"Roboto Black";margin-right:10px;color:#fff}.header .version{font-size:1.2rem;color:#888;font-family:"Roboto Black"}
+/*# sourceMappingURL=Header.css.map */

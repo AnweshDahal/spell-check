@@ -1,0 +1,71 @@
+@import "./color";
+@import "./fonts";
+
+.body {
+	width: 90%;
+	margin: 40px auto;
+	.search {
+		width: 100%;
+		padding: 10px;
+		display: flex;
+		justify-content: center;
+		.search-bar {
+			width: 50%;
+			max-width: 400px;
+			font-size: 1.5rem;
+			padding: 2px 10px;
+			border-style: solid;
+			border-width: 3px;
+			border-right: none;
+			border-color: $primary-color;
+			border-radius: 5px 0px 0px 5px;
+			font-family: $Roboto-Reg;
+		}
+
+		.btn-submit {
+			border: none;
+			font-size: 1.2rem;
+			padding: 2px 10px;
+			background-color: $primary-color;
+			color: $secondary-color;
+			font-family: $Roboto-Bld;
+			border-radius: 0px 5px 5px 0px;
+		}
+	}
+
+	.result {
+		width: 90%;
+		margin: auto;
+		.top-suggestion {
+			font-family: $Roboto-Bld;
+			font-size: 2rem;
+			.top-suggestion-title {
+				color: $blue;
+			}
+		}
+		.all-suggestion {
+			margin-top: 20px;
+		}
+		.all-suggestion-title {
+			font-family: $Roboto-Reg;
+			font-size: 1.1rem;
+		}
+		.correction-group {
+			list-style-type: none;
+			font-size: 1.2rem;
+			font-family: $Roboto-Reg;
+			display: flex;
+			width: 40%;
+			flex-wrap: wrap;
+			color: $primary-color;
+			.correction-item {
+				padding: 2px 6px;
+				margin: 5px;
+				display: flex;
+				width: max-content;
+				background-color: $lighter-grey;
+				border-radius: 25px;
+			}
+		}
+	}
+}

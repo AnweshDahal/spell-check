@@ -1,0 +1,18 @@
+@import "./color";
+@import "./fonts";
+
+.header {
+	background-color: $primary-color;
+	padding: 10px;
+	.logo {
+		font-size: 2rem;
+		font-family: $Roboto-Blk;
+		margin-right: 10px;
+		color: $secondary-color;
+	}
+	.version {
+		font-size: 1.2rem;
+		color: $light-grey;
+		font-family: $Roboto-Blk;
+	}
+}
